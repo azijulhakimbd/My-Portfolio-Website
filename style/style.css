@@ -43,6 +43,7 @@ nav ul{
 .dark-2{
     color: #474747;
 }
+/* Shared style start  */
 .btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -52,6 +53,18 @@ nav ul{
     border: none;
 
 }
+.section-tittle{
+    color: #181818;
+    font-weight: bold;
+    font-size: 35px;
+}
+.section-description{
+
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+/* shared style end */
 /* nav style end */
 
 /* banner style start*/
@@ -78,4 +91,40 @@ nav ul{
     font-size: 25px;
     font-weight: 300;
 }
-/* banner style end */
+/* banner style end */ 
+
+/* main style*/
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+main section{
+    margin-top:130px;
+    margin-bottom:130px ;
+}
+/* About style start*/
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+/* about style end */
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content:space-around;
+}
+/* skills style start */
+.skills-container{
+    display: flex;
+    gap: 24px;
+  
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
