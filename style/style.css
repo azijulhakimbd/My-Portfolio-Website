@@ -7,7 +7,7 @@
 }
 /* header style start */
 .header{
-    background-image: url('/images/developer.png'), url('/images/header_bg.png');
+    background-image: url('./images/developer.png'), url('./images/header_bg.png');
     background-position:top left, bottom right;
     background-repeat: no-repeat;
 }
